@@ -1,0 +1,64 @@
+.logo{
+    height:10vh;
+    background-color: white;
+    padding: 5px;
+}
+.section-main{
+    background-image: url(background1.png);
+    background-size:cover;
+    height: 100%;
+}
+
+.bg-color{
+    color:white
+}
+
+.section-center{
+  font-weight: bold;
+}
+.image{
+    padding: 5px;
+}
+h2{
+    font-family: serif;
+}
+@keyframes scroll {
+    0% {
+      transform: translateY(-90%);
+    }
+    100% {
+      transform: translateY(-4%);
+    }
+  }
+  
+  .slide-track1 {
+    animation: scroll 5s linear infinite;
+    display: flex;
+    height: 100vh;
+  }
+  .slider{
+    background-color: white;
+    height: 100%;
+    overflow: hidden;
+  }
+
+  @keyframes topscroll{
+    0% {
+      transform: translateY(-4%);
+    }
+    100% {
+      transform: translateY(-90%);
+    }
+  }
+  
+  .slide-track2 {
+    animation: topscroll 5s linear infinite;
+    display: flex;
+    height: 100vh;
+  }
+  .text{
+    text-align: center;
+  }
+  body{
+    cursor: url('icons8-diwali-64.png'),auto;
+  }
